@@ -5,6 +5,7 @@ import re
 import traceback
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 word_csv_path = os.path.join(BASE_DIR, "ksl_dictionary_words_augmented.csv")
