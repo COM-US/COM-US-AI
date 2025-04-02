@@ -2,71 +2,71 @@
   {
     "original": "나는 요즘 그림 그리기에 빠져 있어요.",
     "ksl_sentence": "[나] [요즘] [그림] [그리기] [빠지다] [있다]",
-    "ksl_explanation": "- 어순 재배열: 수어 문법에 맞춰 [주어] [수식어] [서술어] 순서로 재배열했습니다.\n- 주어 보완: 주어 \"나\"는 이미 명시되어 있어 그대로 사용했습니다.\n- 수식어 처리: \"요즘\"은 시간 부사로, \"그림 그리기\"는 명사형 수식어로 서술어 \"빠지다\" 앞에 배치했습니다.\n- 서술어 중심 표현: \"빠지다\"와 \"있다\"를 결합하여 상태를 나타냈습니다.\n- 비수지표지: 문장 끝에 {휴지}를 사용하여 문장 구획을 표시했습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[자신,나,저,내] *[요즘,최근,근래] *[그림,화] *[그리다,그림] *[빠지다,몰두하다] *[있다,존재하다]",
-    "final_result": "[의미 매칭 결과]\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n*[요즘] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624416/MOV000239173_700X466.mp4\n*[그림] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631960/MOV000243346_700X466.mp4\n*[그리다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631960/MOV000243346_700X466.mp4\n*[빠지다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784450/MOV000356884_700X466.mp4\n*[있다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/629937/MOV000255212_700X466.mp4"
+    "ksl_explanation": "- 어순 재배열: 한국수어에서는 기본 구조가 [주어] [목적어] [서술어]이므로, \"나\"를 주어로, \"그림 그리기\"를 목적어로, \"빠지다\"를 서술어로 배치했습니다. \"있다\"는 상태를 나타내는 수식어로 서술어 뒤에 배치했습니다.\n- 수식어: \"요즘\"은 시간 부사로, 문장 앞에 배치했습니다.\n- 문장 성분 보완: 주어 \"나\"는 문장에 명시되어 있어 그대로 유지했습니다.\n- 부정 표현: 부정 표현이 없으므로 관련 규칙은 적용되지 않았습니다.\n- 복합문 처리: 복합문이 아니므로 관련 규칙은 적용되지 않았습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[자신,나,저,내] *[요즘,최근,근래] *[그림,그림그리기] *[그림,그림그리기] *[몰두하다,빠지다] *[있다,존재하다]",
+    "final_result": "[의미 매칭 결과]\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n*[요즘] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624416/MOV000239173_700X466.mp4\n*[그림] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631960/MOV000243346_700X466.mp4\n*[그림] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631960/MOV000243346_700X466.mp4\n*[빠지다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201210/784450/MOV000356884_700X466.mp4\n*[있다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/629937/MOV000255212_700X466.mp4"
   },
   {
     "original": "친구랑 놀 때가 제일 재밌어요!",
-    "ksl_sentence": "[친구] [놀다] [제일] [재밌다]",
-    "ksl_explanation": "수어 문법에 맞게 어순을 [주어] [서술어]로 재배열했습니다. \"친구랑 놀 때\"는 \"친구\"와 \"놀다\"로 표현하여 주어와 서술어로 나누었고, \"제일\"은 \"재밌다\"의 수식어로 서술어 앞에 위치시켰습니다. 감정 표현은 따로 명시되지 않았습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[벗,친구] *[놀다,놀리다,장난치다] *[제일,가장,최고,최상] *[재미,재밌다,흥미롭다]",
-    "final_result": "[의미 매칭 결과]\n*[벗] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[놀다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626620/MOV000241795_700X466.mp4\n*[제일] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200825/735714/MOV000244626_700X466.mp4\n*[재미] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191029/632420/MOV000235261_700X466.mp4"
+    "ksl_sentence": "[친구] [함께] [놀다] [가장] [재밌다]",
+    "ksl_explanation": "1. 어순 재배열: 수어 문법에 따라 주어 [친구]와 서술어 [재밌다]를 유지하고, [놀다]를 서술어로 추가하여 문장을 구성했습니다.\n2. 수식어 처리: '가장'이라는 부사어는 서술어 [재밌다] 바로 앞에 배치했습니다.\n3. 감정 및 문형: 감정 표현이 없으므로 추가 설명은 필요하지 않습니다.\n4. 비수지표지: 문장 끝에 {휴지}를 추가하여 문장 구획을 나타냈습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[친구,벗,동무,친구들] *[같이,함께] *[놀다,놀이,놀기] *[가장,제일,최고] *[재미있다,재밌다,흥미롭다]",
+    "final_result": "[의미 매칭 결과]\n*[친구] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[같이] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191001/623709/MOV000236380_700X466.mp4\n*[놀다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191011/626620/MOV000241795_700X466.mp4\n*[가장] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201223/790888/MOV000357847_700X466.mp4\n*[재미있다,재밌다,흥미롭다]"
   },
   {
     "original": "엄마가 맛있는 밥을 해줬어요.",
     "ksl_sentence": "[엄마] [밥] [맛있다] [주다]",
-    "ksl_explanation": "주어-목적어-서술어 구조를 유지하며, '맛있는'이라는 형용사는 '밥'을 수식하므로 '밥' 뒤에 '맛있다'로 표현했습니다. '해줬어요'는 '주다'로 변환하여 서술어로 사용했습니다. 평서문이므로 주어는 그대로 유지했습니다.",
+    "ksl_explanation": "주어-목적어-서술어 순서로 변환했습니다. '맛있는'은 '밥'을 수식하는 형용사로, 수식어는 피수식어 앞에 오지만, 수어에서는 '맛있다'라는 상태를 서술어로 표현하여 '밥' 뒤에 배치했습니다. '해줬어요'는 '주다'로 변환하여 서술어로 사용했습니다.",
     "semantic_matched": "[의미 매칭 결과]: *[어머니,모친,어미,엄마] *[밥,식사,진지] *[맛있다,맛나다,맛좋다] *[주다,드리다,제공하다]",
     "final_result": "[의미 매칭 결과]\n*[어머니] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191004/624375/MOV000254981_700X466.mp4\n*[쌀밥] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785278/MOV000357032_700X466.mp4\n*[맛있다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627269/MOV000252525_700X466.mp4\n*[주다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629649/MOV000259522_700X466.mp4"
   },
   {
     "original": "오늘 하루 어땠어요?",
-    "ksl_sentence": "[오늘] [하루] [어떻다] [너]",
-    "ksl_explanation": "이 문장은 의문문이므로 주어를 [너]로 보완했습니다. 한국수어에서는 의문사가 문장 끝에 위치하므로 [어떻다]를 문장 끝에 배치했습니다. '오늘 하루'는 주어로 사용되며, 수어 문법에 맞게 [오늘] [하루] 순서로 배치했습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[오늘,금일,이번,오늘날,현재] *[하루,일,날,하루종일] *[어떻다,어떠하다,어떻게,어떤] *[너,자네,당신]",
-    "final_result": "[의미 매칭 결과]\n*[오늘] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628278/MOV000256336_700X466.mp4\n*[하루] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630048/MOV000236186_700X466.mp4\n*[어떻게] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785449/MOV000357105_700X466.mp4\n*[너] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627265/MOV000251996_700X466.mp4"
+    "ksl_sentence": "[오늘] [하루] [어떻다] [너] {휴지}",
+    "ksl_explanation": "- 의문문에서 생략된 주어를 [너]로 보완하였습니다.\n- 한국수어 문법에 맞게 [주어] [목적어] [서술어] 순으로 배열하였습니다.\n- 의문문이므로 문장 끝에 {휴지}를 추가하였습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[오늘,금일,이번,오늘날,현재] *[하루,일일,날] *[어떻다,어떻게,어떠하다] *[너,자네,당신] {휴지}",
+    "final_result": "[의미 매칭 결과]\n*[오늘] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628278/MOV000256336_700X466.mp4\n*[하루] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630048/MOV000236186_700X466.mp4\n*[어떻게] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201211/785449/MOV000357105_700X466.mp4\n*[너] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191014/627265/MOV000251996_700X466.mp4\n{휴지}"
   },
   {
     "original": "학교에 갔다가 집에 왔어요.",
     "ksl_sentence": "[학교] [가다] {휴지} [집] [오다]",
-    "ksl_explanation": "- 어순 재배열: 한국수어에서는 주어-서술어 구조로 표현합니다. \"학교에 갔다가\"는 [학교] [가다]로, \"집에 왔어요\"는 [집] [오다]로 변환됩니다.\n- 접속사 처리: \"갔다가\"는 접속사 역할을 하므로 문장을 분할하고 {휴지}를 삽입하여 두 사건을 구분했습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[학교,교실,학원] *[가다,이동하다,출발하다] {휴지} *[집,가정,주택,댁] *[오다,도착하다,돌아오다]",
+    "ksl_explanation": "이 문장은 복합문으로, \"학교에 갔다가\"와 \"집에 왔어요\" 두 문장으로 나눌 수 있습니다. 각각의 문장은 주어-서술어 구조로 변환됩니다. 접속사는 {휴지}로 처리하여 문장을 분리하였습니다. \"학교에 갔다가\"는 [학교] [가다]로, \"집에 왔어요\"는 [집] [오다]로 변환하였습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[학교,교정,교사,교실] *[가다,가버리다,가다오다,가버리다] {휴지} *[집,가정,댁,집안] *[오다,다가오다,돌아오다,오다가다]",
     "final_result": "[의미 매칭 결과]\n*[학교] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191001/623672/MOV000236222_700X466.mp4\n*[가다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632050/MOV000249486_700X466.mp4\n{휴지}\n*[집] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20240118/1261154/MOV000361389_700X466.mp4\n*[오다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628281/MOV000256338_700X466.mp4"
   },
   {
     "original": "시험이 너무 어려워서 힘들었어요.",
     "ksl_sentence": "[시험] [너무] [어렵다] {휴지} [힘들다]",
-    "ksl_explanation": "1. 어순 재배열: 수어 문법에 따라 기본 구조는 [주어] [서술어]로 구성됩니다. \"시험이 너무 어려워서\"는 [시험] [너무] [어렵다]로 변환되었습니다. \n2. 부사어 처리: \"너무\"는 서술어 \"어렵다\" 바로 앞에 위치시켰습니다.\n3. 문장 성분 보완: \"힘들다\"는 \"어렵다\"의 결과로 해석되어 별도의 문장으로 분리하여 {휴지}를 삽입했습니다.\n4. 감정 및 문형: 감정 표현은 없으며, 평서문으로 유지되었습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[시험,테스트,시험하다] *[너무,과도하게,지나치게,매우] *[어렵다,어려움,난해하다] {휴지} *[고생,힘들다,노고,고난,고충]",
-    "final_result": "[의미 매칭 결과]\n*[시험] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732640/MOV000256257_700X466.mp4\n*[너무,과도하게,지나치게,매우]\n*[어렵다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628067/MOV000235835_700X466.mp4\n{휴지}\n*[고생] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201230/793171/MOV000358026_700X466.mp4"
+    "ksl_explanation": "1. 어순 재배열: 수어 문법에 따라 [주어] [부사어] [서술어] 순으로 재배열했습니다. '시험'이 주어, '너무'가 부사어, '어렵다'가 서술어입니다.\n2. 문장 성분 보완: 주어 '시험'은 이미 명시되어 있어 보완할 필요가 없었습니다.\n3. 감정 및 문형: 감정 표현은 없으며, 평서문으로 처리했습니다.\n4. 접속사 처리: '어려워서'는 원인과 결과를 나타내는 접속사로, 수어에서는 두 문장으로 분리하여 {휴지}로 구획했습니다. '어렵다'와 '힘들다'를 각각 독립된 서술어로 처리했습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[시험,테스트] *[너무,과도하다,과하다] *[어렵다,어려움,난해하다,힘들다] {휴지} *[힘들다,고생하다,어렵다]",
+    "final_result": "[의미 매칭 결과]\n*[시험] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20200820/732640/MOV000256257_700X466.mp4\n*[너무,과도하다,과하다]\n*[어렵다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191016/628067/MOV000235835_700X466.mp4\n{휴지}\n*[힘들다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/624875/MOV000242040_700X466.mp4"
   },
   {
     "original": "가족과 캠핑 가고 싶어요.",
-    "ksl_sentence": "[가족] [캠핑] [가고 싶다]",
-    "ksl_explanation": "주어 \"가족\"을 먼저 두고, 서술어 \"가고 싶다\"를 마지막에 배치하여 수어의 기본 구조인 [주어] [서술어]를 따랐습니다. \"캠핑\"은 수식어로 서술어 앞에 배치했습니다. \"싶다\"는 감정이나 의도를 나타내므로 서술어로 표현했습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[가족,식구] *[캠프,캠핑] *[가다,가고 싶다,가고 싶어하다]",
-    "final_result": "[의미 매칭 결과]\n*[가족] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201023/764397/MOV000250034_700X466.mp4\n*[캠프,캠핑]\n*[가다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632050/MOV000249486_700X466.mp4"
+    "ksl_sentence": "[가족] [캠핑] [가다] [원하다]",
+    "ksl_explanation": "주어 '가족'과 서술어 '가다'를 유지하였고, '~고 싶다'의 표현은 수어에서 [원하다]로 변환하였습니다. '캠핑'은 목적어로 추가하여 문장을 완성했습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[가족,가족들,식구,가족관계] *[캠프,캠핑] *[가다,가버리다,가버린다,떠나다] *[원하다,바라다,희망하다]",
+    "final_result": "[의미 매칭 결과]\n*[가족] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20201023/764397/MOV000250034_700X466.mp4\n*[캠프,캠핑]\n*[가다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632050/MOV000249486_700X466.mp4\n*[원하다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191021/629536/MOV000255598_700X466.mp4"
   },
   {
     "original": "나는 사탕을 친구한테 나눠줬어요.",
     "ksl_sentence": "[나] [사탕] [친구] [나누다]",
-    "ksl_explanation": "- 어순 재배열: 주어 \"나\", 목적어 \"사탕\", \"친구\"를 나누는 대상이므로 목적어로 간주하여 서술어 \"나누다\" 앞에 배치.\n- 문장 성분 보완: 목적어 \"사탕\"과 \"친구\"를 명확히 하기 위해 문장에 포함.\n- 평서문이므로 주어 \"나\"를 유지. \n- 비수지표지로 문장 끝에 {휴지}를 추가하지 않음.",
-    "semantic_matched": "[의미 매칭 결과]: *[자신,나,저,내] *[사탕,캔디] *[벗,친구] *[나누다,분배하다,배분하다]",
-    "final_result": "[의미 매칭 결과]\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n*[사탕] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632067/MOV000254364_700X466.mp4\n*[벗] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[나누다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631950/MOV000249630_700X466.mp4"
+    "ksl_explanation": "주어 [나], 목적어 [사탕], 수혜자 [친구] 순으로 배열하여 문장을 구성했습니다. 수어에서는 수혜자를 명확히 하기 위해 목적어와 수혜자를 나란히 배치합니다. 서술어 [나누다]는 문장 끝에 위치시켜 수어 문법에 맞췄습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[자신,나,저,내] *[사탕,캔디] *[친구,벗,동무,우정] *[나누다,분배하다,배분하다]",
+    "final_result": "[의미 매칭 결과]\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n*[사탕] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/632067/MOV000254364_700X466.mp4\n*[친구] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[나누다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631950/MOV000249630_700X466.mp4"
   },
   {
     "original": "친구가 기분 안 좋아 보여요.",
-    "ksl_sentence": "[친구] [기분] [안 좋다]",
-    "ksl_explanation": "- 어순 재배열: 자동사 문장으로 [주어] [서술어] 구조를 유지하였고, '기분'이라는 명사 수식어를 서술어 앞에 배치하여 의미를 명확히 했습니다.\n- 부정문 처리: '안 좋다'는 서술어 '좋다' 뒤에 부정 표현을 추가하여 '안 좋다'로 변환했습니다.",
-    "semantic_matched": "[의미 매칭 결과]: *[친구,벗,동무] *[기분,감정,마음,기분이 좋다] *[나쁘다,안 좋다]",
-    "final_result": "[의미 매칭 결과]\n*[친구] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[기분] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630074/MOV000248558_700X466.mp4\n*[나쁘다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191007/625081/MOV000248926_700X466.mp4"
+    "ksl_sentence": "[친구] [기분] [좋다] [아니다]",
+    "ksl_explanation": "1. 어순 재배열: 주어 [친구]와 서술어 [좋다]를 기본 구조에 맞춰 배치했습니다.\n2. 부정문 처리: '안'은 수어에서 [아니다]로 변환하여 서술어 뒤에 배치했습니다.\n3. 문장 성분 보완: 주어 [친구]는 이미 명시되어 있어 추가 보완은 필요하지 않았습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[벗,친구] *[기분,기분이 좋다,기분이 나쁘다,기분이 상하다,기분이 들다] *[좋다,좋아하다,좋아지다,좋아지게 하다] *[아니다,아니]",
+    "final_result": "[의미 매칭 결과]\n*[벗] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627705/MOV000257451_700X466.mp4\n*[기분] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630074/MOV000248558_700X466.mp4\n*[좋다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/629987/MOV000259382_700X466.mp4\n*[아니다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191028/631932/MOV000244884_700X466.mp4"
   },
   {
     "original": "나는 운동장에서 열심히 뛰었어요.",
-    "ksl_sentence": "[운동장] [나] [열심히] [뛰다]",
-    "ksl_explanation": "- 어순 재배열: 수어 문법에 맞춰 [주어] [부사어] [서술어] 순서로 변환. 장소를 나타내는 '운동장'을 문장 앞에 배치.\n- 부사어 처리: '열심히'는 서술어 '뛰다' 바로 앞에 배치.\n- 평서문 주어 보완: 주어 '나'는 그대로 유지.",
-    "semantic_matched": "[의미 매칭 결과]: *[운동장,운동장,운동장] *[자신,나,저,내] *[근면,열성,열심,꾸준하다,부지런하다] *[달리다,뛰다,달음박질하다]",
-    "final_result": "[의미 매칭 결과]\n*[운동장] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041861/MOV000360912_700X466.mp4\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n*[근면] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191017/628491/MOV000249058_700X466.mp4\n*[달리다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627561/MOV000243370_700X466.mp4"
+    "ksl_sentence": "[나] [운동장] [열심히] [뛰다]",
+    "ksl_explanation": "- 어순 재배열: 수어 문법에 맞게 주어 [나]를 먼저 두고, 장소 [운동장]을 명시한 후 부사어 [열심히]를 서술어 [뛰다] 앞에 배치했습니다.\n- 문장 성분 보완: 주어 [나]는 이미 명시되어 있어 추가 보완이 필요하지 않았습니다.\n- 부정 및 복합문 처리: 부정 표현이나 복합문이 아니므로 해당 사항이 없습니다.\n- 감정 및 문형: 감정 표현이 없고 평서문이므로 특별한 처리 없이 변환했습니다.",
+    "semantic_matched": "[의미 매칭 결과]: *[자신,나,저,내] [운동장] *[근면,열성,열심,꾸준하다,부지런하다] *[달리다,뛰다]",
+    "final_result": "[의미 매칭 결과]\n*[자신] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191022/630193/MOV000236772_700X466.mp4\n[운동장]  http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20221018/1041861/MOV000360912_700X466.mp4\n*[근면] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191017/628491/MOV000249058_700X466.mp4\n*[달리다] http://sldict.korean.go.kr/multimedia/multimedia_files/convert/20191015/627561/MOV000243370_700X466.mp4"
   }
 ]
