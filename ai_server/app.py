@@ -79,5 +79,6 @@ def extract_ksl_url(word, final_result):
     match = pattern.search(final_result)
     return match.group(1) if match else ""
 
+
 if __name__ == "__main__":
      app.run(host='0.0.0.0', port=5000, debug=True)
