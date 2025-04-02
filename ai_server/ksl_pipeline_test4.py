@@ -310,3 +310,38 @@ def run_pipeline(sentence, word_csv_path, dict_csv_path):
         "semantic_matched": result2,
         "final_result": final_output
     }
+
+# Test the pipeline with example sentences
+# This part tests the pipeline with various Korean sentences.
+# It prints the results in a readable format.
+if __name__ == "__main__":
+    word_csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ksl_dictionary_words_augmented.csv")
+    dict_csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ksl_dictionary_final_re.csv")
+    test_sentences = [
+        "나는 요즘 그림 그리기에 빠져 있어요.",
+        "친구랑 놀 때가 제일 재밌어요!",
+        "엄마가 맛있는 밥을 해줬어요.",
+        "오늘 하루 어땠어요?",
+        "학교에 갔다가 집에 왔어요.",
+        "시험이 너무 어려워서 힘들었어요.",
+        "가족과 캠핑 가고 싶어요.",
+        "나는 사탕을 친구한테 나눠줬어요.",
+        "친구가 기분 안 좋아 보여요.",
+        "나는 운동장에서 열심히 뛰었어요."
+    ]
+    
+    all_results = []
+
+    for i, sentence in enumerate(test_sentences, 1):
+        print(f"\n예문 {i}: {sentence}")
+        result = run_pipeline(sentence, word_csv_path, dict_csv_path)
+        all_results.append(result)
+
+        print("원문:", result["original"])
+        print("수어 문장:", result["ksl_sentence"])
+        print("설명:", result["ksl_explanation"])
+        print("의미 확장 결과:", result["semantic_matched"])
+        print("최종 결과 (링크 포함):\n" + result["final_result"])
+        
+    with open("ksl_pipeline_test_results.json", "w", encoding="utf-8") as f:
+        json.dump(all_results, f, ensure_ascii=False, indent=2)
