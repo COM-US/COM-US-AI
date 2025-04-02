@@ -10,6 +10,10 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 WORKDIR /app
 COPY . /app
 
+# SSL 인증서 복사
+COPY server.crt /app/server.crt
+COPY server.key /app/server.key
+
 # 필요한 파이썬 라이브러리 설치
 RUN pip install --no-cache-dir -r requirements.txt
 
