@@ -3,6 +3,7 @@ from ksl_pipeline import run_pipeline
 import os
 import re
 import traceback
+import json
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
@@ -25,11 +26,15 @@ def translate_to_ksl():
         result = run_pipeline(sentence, word_csv_path, dict_csv_path)
 
         if "error" in result:
-            return jsonify({
-                "status": 500, 
-                "message": "KSL 변환 실패", 
-                "detail": result["error"]
-            }), 500
+            return app.response_class(
+                response=json.dumps({
+                    "status": 500, 
+                    "message": "KSL 변환 실패", 
+                    "detail": result["error"]
+                }, ensure_ascii=False),
+                status=500,
+                mimetype='application/json'
+            )
 
         # Extracting the KSL sentence 
         converted_sentence = []
@@ -57,21 +62,30 @@ def translate_to_ksl():
                             break
                     break
                     
-        return jsonify({
-            "status": 200,
-            "message": "요청이 성공했습니다.",
-            "data": {
-                "converted_sentence": converted_sentence,
-                "ksl_videos": ksl_videos
-            }
-        })
+        return app.response_class(
+            response=json.dumps({
+                "status": 200,
+                "message": "요청이 성공했습니다.",
+                "data": {
+                    "converted_sentence": converted_sentence,
+                    "ksl_videos": ksl_videos
+                }
+            }, ensure_ascii=False),
+            status=200,
+            mimetype='application/json'
+        )
+        
     except Exception as e:
         traceback.print_exc()
-        return jsonify({
-            "status": 500,
-            "message": "서버 오류",
-            "detail": str(e)
-        }), 500
+        return app.response_class(
+            response=json.dumps({
+                "status": 500,
+                "message": "서버 오류",
+                "detail": str(e)
+            }, ensure_ascii=False),
+            status=500,
+            mimetype='application/json'
+        )
 
 def extract_ksl_url(word, final_result):
     if not word:
