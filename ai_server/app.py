@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from ksl_pipeline import run_pipeline
 import os
 import re
@@ -17,10 +17,14 @@ def translate_to_ksl():
     try: 
         data = request.get_json()
         if not data or "sentence" not in data:
-            return jsonify({
-                "status": 400, 
-                "message": "문장이 제공되지 않았습니다."
-            }), 400
+            return app.response_class(
+                response=json.dumps({
+                    "status": 400, 
+                    "message": "문장이 제공되지 않았습니다."
+                }, ensure_ascii=False),
+                status=400,
+                mimetype='application/json'
+            )
 
         sentence = data["sentence"]
         result = run_pipeline(sentence, word_csv_path, dict_csv_path)
