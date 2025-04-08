@@ -112,4 +112,4 @@ def extract_ksl_url(word, final_result):
 
 
 if __name__ == "__main__":
-     app.run(host='0.0.0.0', port=5000, debug=True)
+     app.run(host='0.0.0.0', port=443, ssl_context=("/app/server.crt", "/app/server.key"))
