@@ -8,6 +8,7 @@ import json
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
+DEBUG_MODE = os.environ.get("DEBUG_MODE", "false").lower() == "true"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 word_csv_path = os.path.join(BASE_DIR, "ksl_dictionary_words_augmented.csv")
 dict_csv_path = os.path.join(BASE_DIR, "ksl_dictionary_final_re.csv")
@@ -28,7 +29,7 @@ def translate_to_ksl():
 
         sentence = data["sentence"]
         result = run_pipeline(sentence, word_csv_path, dict_csv_path)
-
+        
         if "error" in result:
             return app.response_class(
                 response=json.dumps({
@@ -65,16 +66,26 @@ def translate_to_ksl():
                             }
                             break
                     break
-                    
+       
+        # response format               
+        response_payload = {
+            "status": 200,
+            "message": "요청이 성공했습니다.",
+            "data": {
+                "converted_sentence": converted_sentence,
+                "ksl_videos": ksl_videos
+            }
+        }
+        # Adding debug information if in DEBUG_MODE
+        if DEBUG_MODE:
+            response_payload["debug_data"] = {
+                "ksl_sentence": result.get("ksl_sentence"),
+                "semantic_matched": result.get("semantic_matched"),
+                "final_result": result.get("final_result")
+            }
+            
         return app.response_class(
-            response=json.dumps({
-                "status": 200,
-                "message": "요청이 성공했습니다.",
-                "data": {
-                    "converted_sentence": converted_sentence,
-                    "ksl_videos": ksl_videos
-                }
-            }, ensure_ascii=False),
+            response=json.dumps(response_payload, ensure_ascii=False),
             status=200,
             mimetype='application/json'
         )
